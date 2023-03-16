@@ -5,7 +5,7 @@ class Solver
 
     def factorial
         if @number < 0
-            puts 'Plese give me a positive number'
+            return 'Plese give me a positive number'
         elsif @number == 0
             return 1
         else
