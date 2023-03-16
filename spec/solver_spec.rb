@@ -27,7 +27,6 @@ describe Solver do
     end
   end
 
-
   describe '#fizzbuzz' do
     context 'should returns the correct fizzbuzz' do
       it 'returns 1 if number is equal to 1' do
