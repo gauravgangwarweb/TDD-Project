@@ -15,5 +15,5 @@ class Solver
             }
             return ans
         end
-    end    
+    end 
 end
