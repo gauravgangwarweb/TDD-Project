@@ -1,7 +1,4 @@
 class Solver
-    # def initialize(number)
-    #     number = number
-    # end
 
     def factorial(number)
         if number < 0
@@ -15,5 +12,10 @@ class Solver
             }
             return ans
         end
-    end 
+    end
+    
+    def reverse(str)
+        ans = str.reverse
+        return ans
+    end
 end
