@@ -6,7 +6,7 @@ describe Solver do
   describe '#factorial' do
     context 'should returns the correct factorials' do
       it 'returns error message if number is negative' do
-        expect(solver.factorial(-2)).to eq('Plese give me a positive number')
+        expect { solver.factorial(-2) }.to raise_error(Exception)
       end
 
       it 'returns 1 if number is equal to 0' do
@@ -29,7 +29,7 @@ describe Solver do
 
   describe '#fizzbuzz' do
     context 'should returns the correct fizzbuzz' do
-      it 'returns 1 if number is equal to 1' do
+      it 'Should return number if the number is not divisible by 3 or 5' do
         expect(solver.fizzbuzz(1)).to eq(1)
       end
 
