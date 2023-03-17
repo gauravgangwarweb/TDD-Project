@@ -1,7 +1,7 @@
 class Solver
   def factorial(number)
     if number.negative?
-      'Plese give me a positive number'
+      raise Exception
     elsif number.zero?
       1
     else
